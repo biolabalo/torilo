@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import UserImg from  '../../assets/IMG-20180413-WA0005.png'
 
 function CollapsibleNav() {
   return (
@@ -54,6 +54,10 @@ function CollapsibleNav() {
               </svg>
             </Nav.Link>
             <Nav.Link href="#deets">Oluwaleke Ojo</Nav.Link>
+
+            <Nav.Link href="#deets">
+            <img src={UserImg} alt="Logo" class="rounded-circle"/>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
