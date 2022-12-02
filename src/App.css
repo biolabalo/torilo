@@ -1,0 +1,28 @@
+.navbar{
+  box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+  height: 60px
+}
+
+.navbar-nav a{
+  color: #647787 !important;
+}
+
+
+.bg-light {
+    background-color:  white!important;
+}
+
+.navbar-brand{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+color: #1875F0 !important;
+}
+
+.navbar .container-fluid{
+   padding-left: 50px;
+   padding-right: 50px
+}
