@@ -28,23 +28,23 @@ function CollapsibleNav() {
                 <path
                   d="M11.2913 20.8262C11.2913 21.4027 11.063 21.9557 10.6567 22.3634C10.2503 22.771 9.69925 23.0001 9.12462 23.0001C8.54999 23.0001 7.9989 22.771 7.59257 22.3634C7.18625 21.9557 6.95798 21.4027 6.95798 20.8262"
                   stroke="#647787"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M1 18.6522H17.2498"
                   stroke="#647787"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M16.1662 18.6522H16.7079C15.5108 18.6522 13.9996 17.6794 13.9996 16.4783V11.587C13.9996 10.2898 13.486 9.04566 12.5717 8.12836C11.6575 7.21107 10.4175 6.69574 9.12463 6.69574C7.83171 6.69574 6.59175 7.21107 5.67752 8.12836C4.76329 9.04566 4.24968 10.2898 4.24968 11.587V16.4783C4.24968 17.0549 4.02141 17.6078 3.61509 18.0155C3.20876 18.4232 2.65767 18.6522 2.08304 18.6522"
                   stroke="#647787"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <circle cx="14.5" cy="7.5" r="7.5" fill="#1860EC" />
                 <path
@@ -56,7 +56,7 @@ function CollapsibleNav() {
             <Nav.Link href="#deets">Oluwaleke Ojo</Nav.Link>
 
             <Nav.Link href="#deets">
-            <img src={UserImg} alt="Logo" class="rounded-circle"/>
+            <img src={UserImg} alt="Logo" className="rounded-circle"/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

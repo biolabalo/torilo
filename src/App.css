@@ -7,9 +7,12 @@
   color: #647787 !important;
 }
 
-
 .bg-light {
     background-color:  white!important;
+}
+
+.offcanvas{
+  margin-top: 62px
 }
 
 .navbar-brand{
